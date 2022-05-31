@@ -29,7 +29,7 @@ jobs:
        
         - name: install packages
           run: |
-            python pip install numpy
+            python -m pip3 install numpy
         - name: execute py script # run the run.py to get the latest data
           run: |
             python starter.py
